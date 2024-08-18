@@ -1,0 +1,40 @@
+<section class="basket">
+    <div class="basket__inner">
+        <h1 class="basket__head">Корзина</h1>
+        <div id="basket">
+            {{#if cards.length}}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Кол-во ярусов</th>
+                        <th>Количество</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each cards}}
+                    <tr>
+                        <td>{{cardTitle}}</td>
+                        <td>{{tierNumber}}</td>
+                        <td>{{count}}</td>
+                        <td>
+                            <button type="button" class="basket__deletebtn" data-id="{{id}}">Удалить</button>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+            <form class="basket__emailpost" method="POST" action="/basket/send">
+                <label for="name">Имя:</label>
+                <input type="text" name="name">
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+                <button type="submit">Отправить ТЗ</button>
+            </form>
+            {{else}}
+            <p>Нет добавленного товара</p>
+            {{/if}}
+        </div>
+    </div>
+</section>

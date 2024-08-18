@@ -1,0 +1,25 @@
+<section class="catalog">
+    <div class="catalog__inner">
+        {{#each cards}}
+            <form class="catalog__card" action="/basket/add" method="POST">
+                <div class="catalog__cardfront">
+                    <img class="catalog__cardimg" src="images/007-300x300.jpg" alt="nary metal VII">
+                    <h4 class="catalog__cardname">{{title}}</h4>
+                </div>
+                <div class="catalog__cardback">
+                    {{#each descriptions}}
+                        <p class="catalog__cardp" id="option{{id}}">{{description}}</p>
+                    {{/each}}
+                    <div class="catalog__cardbtns">
+                        <h5 class="catalog__cardtext">Кол-во ярусов:</h5>
+                        {{#each descriptions}}
+                            <button type="button" class="catalog__option" id="option{{id}}">{{tierNumber}}</button>
+                        {{/each}}
+                    </div>
+                    <input type="hidden" class="value" name="id" value="{{cardId}}">
+                    <button type="submit" class="catalog__cardbtn">Добавить в корзину</button>
+                </div>
+            </form>
+        {{/each}}
+    </div>
+</section>

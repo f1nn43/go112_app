@@ -1,0 +1,85 @@
+[{
+    "cardId": 0,
+    "title": "Нары металлические двухсторонние. Тип VIII.",
+    "descriptions": [
+        {
+            "id": 0,
+            "tierNumber": 1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisl dui, nec dapibus eros rhoncus a. Suspendisse potenti. Praesent laoreet metus purus, et efficitur metus pharetra at. Pellentesque pulvinar posuere neque, vel sodales diam iaculis eget. Nam vitae nulla sed dui tincidunt maximus."
+        },
+        {
+            "id": 1,
+            "tierNumber": 2,
+            "description": "Это другой текст 2"
+        },
+        {
+            "id": 2,
+            "tierNumber": 3,
+            "description": ""
+        }
+    ]
+},
+{
+    "cardId": 1,
+    "title": "Нары металлические двухсторонние. Тип VIII.",
+    "descriptions": [
+        {
+            "id": 4,
+            "tierNumber": 1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisl dui, nec dapibus eros rhoncus a. Suspendisse potenti. Praesent laoreet metus purus, et efficitur metus pharetra at. Pellentesque pulvinar posuere neque, vel sodales diam iaculis eget. Nam vitae nulla sed dui tincidunt maximus."
+        },
+        {
+            "id": 5,
+            "tierNumber": 2,
+            "description": "Это другой текст 2"
+        },
+        {
+            "id": 6,
+            "tierNumber": 3,
+            "description": ""
+        }
+    ]
+},
+{
+    "cardId": 2,
+    "title": "Нары металлические двухсторонние. Тип VIII.",
+    "descriptions": [
+        {
+            "id": 7,
+            "tierNumber": 1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisl dui, nec dapibus eros rhoncus a. Suspendisse potenti. Praesent laoreet metus purus, et efficitur metus pharetra at. Pellentesque pulvinar posuere neque, vel sodales diam iaculis eget. Nam vitae nulla sed dui tincidunt maximus."
+        },
+        {
+            "id": 8,
+            "tierNumber": 2,
+            "description": "Это другой текст 2"
+        },
+        {
+            "id": 9,
+            "tierNumber": 3,
+            "description": ""
+        }
+    ]
+},
+{
+    "cardId": 3,
+    "title": "Нары металлические двухсторонние. Тип VIII.",
+    "descriptions": [
+        {
+            "id": 10,
+            "tierNumber": 1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit nisl dui, nec dapibus eros rhoncus a. Suspendisse potenti. Praesent laoreet metus purus, et efficitur metus pharetra at. Pellentesque pulvinar posuere neque, vel sodales diam iaculis eget. Nam vitae nulla sed dui tincidunt maximus."
+        },
+        {
+            "id": 11,
+            "tierNumber": 2,
+            "description": "Это другой текст 2"
+        },
+        {
+            "id": 12,
+            "tierNumber": 3,
+            "description": ""
+        }
+    ]
+}
+]
